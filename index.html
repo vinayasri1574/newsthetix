@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Goldman' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/svg" href="images/logofav.svg"> 
+
+</head>
+<body>
+
+<div class="navbar" id="navbar">
+  <img src="logofinal.png" alt="Logo" class="logo">
+  <div class="menu">
+    <a href="#home">Home</a>
+    <a href="#platforms">Platforms</a>
+    <a href="#treatments">Treatments</a>
+    <a href="#machines">Machines</a>
+    <a href="#technology">Technology</a>
+    <a href="#roi-calculator">ROI Calculator</a>
+  </div>
+  <div class="hamburger" id="hamburger">&#9776;</div> <!-- Hamburger icon -->
+</div>
+
+<!-- Full-screen overlay -->
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" id="closebtn">&times;</a>
+  <div class="overlay-content">
+    <a href="#home">Home</a>
+    <a href="#platforms">Platforms</a>
+    <a href="#treatments">Treatments</a>
+    <a href="#machines">Machines</a>
+    <a href="#technology">Technology</a>
+    <a href="#roi-calculator">ROI Calculator</a>
+  </div>
+</div>
+
+<video autoplay muted loop id="myVideo">
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<!-- Section with custom content -->
+<div class="container">
+  <!-- Left Content -->
+  <div class="left-content">
+    <h1>More than innovation.<br>Greater than your expectation.</h1>
+    <p>
+      Every energy device company says they’re innovative. Only a few become truly transformative. 
+      With every breakthrough, we redefine the results that drive patient demand. 
+      We’ve redefined acne treatment forever. We pushed body sculpting customization beyond the limits. 
+      Imagine what we’ll do next.
+    </p>
+  </div>
+
+  <!-- Right Content (Images) -->
+  <div class="right-content">
+    <img src="img1.jpg" alt="Image 1">
+    <img src="img2.jpg" alt="Image 2" class="img2">
+    <img src="img3.jpg" alt="Image 3">
+  </div>
+</div>
+
+<!-- New Section Starts Here -->
+<div class="m-container">
+    <!-- Left Content -->
+    <div class="left1-content">
+        <div class="section-number">01</div>
+        <h1>epillaze</h1>
+        <p>The Ultimate Diode Laser Hair Removal<sup>1,2</sup></p>
+        <p>
+            Reveal their true potential with a personalized approach to hair removal
+            ePILLAZE<sup>®</sup> optimizes results by combining two proven technologies
+            to take your patients beyond their best.
+        </p>
+        <div class="button-container">
+            <button class="button btn-dark">ePILLAZE<sup>®</sup></button>
+            <!-- <button class="button btn-light">ePILLAZE-X<sup>™</sup></button> -->
+        </div>
+    </div>
+
+    <!-- Right Content (Image) -->
+    <div class="right1-content">
+        <img src="epillaze.png" alt="epillaze Device">
+        <div class="arrow" onclick="nextSection()">→</div>
+    </div>
+</div>
+
+<!-- 3 section -->
+
+<script src="script.js"></script>
+</body>
+</html>
